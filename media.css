@@ -1,0 +1,79 @@
+@media screen and(max-width:1199px) {
+}
+
+@media screen and (max-width:575px) {
+    .mt-20{
+        margin-top:0px;
+    }
+    .banner .container h1{
+        font-size: 30px !important;
+    }
+    .img-set img{
+        margin-top:30px !important;
+    }
+    .boy72 img{ 
+        /* position: absolute; */
+        margin-top:720px !important ;
+        width:50%;
+
+    }
+    .boy72::before {
+        position: absolute;
+        content: "";
+        height: 19% !important;
+        width: 53% !important;
+        background-color: #ea512e;
+        left: 0;
+        right: 0;
+        top: 725px;
+        z-index: -1;
+        border-radius: 50%;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+        animation: border-transform-default 10s linear infinite alternate forwards;
+}
+.boy72::after {
+    position: absolute;
+    content: "";
+    height: 19% !important;
+    width: 53% !important;
+    background-color:chartreuse;
+    left: 0;
+    right: 0;
+    top: 730px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+}
+.bg-darkgulabi{
+    margin-top:120px !important;
+}
+.card44{
+    margin-bottom: 10px !important;
+}
+.number{
+    margin-top:30px;
+    text-align: center;
+    margin-left:180px;
+}
+}
+
+@media screen and (max-width:768px) {
+    .mt-20{
+        margin-top:0px;
+    }
+    .banner .container h1{
+        font-size: 20px !important;
+    }
+
+    .number{
+        margin-top:150px;
+        text-align: center;
+        margin-left:180px;
+    }
+}
+    
